@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import Image from "../images/bird.jpg";
-import PlaceholderImage from "../images/bird-placeholder.jpg";
+import PlaceholderImage from "../images/placeholder.jpg";
 
 export default function Placeholder() {
   return (

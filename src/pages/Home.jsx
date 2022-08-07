@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -20,15 +19,15 @@ function Home() {
       </header>
 
       <section>
-        <Link className="link" to="/default">
+        <a className="link" href="/default">
           Default
-        </Link>
-        <Link className="link" to="/placeholder">
+        </a>
+        <a className="link" href="/placeholder">
           Placeholder
-        </Link>
-        <Link className="link" to="/blur">
+        </a>
+        <a className="link" href="/blur">
           Blur
-        </Link>
+        </a>
       </section>
 
       <p>
