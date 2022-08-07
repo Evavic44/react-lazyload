@@ -9,9 +9,10 @@ export default function Blur() {
     <div className="container">
       <header>
         <h1>Blur</h1>
+        <p>Lazyload effect with a placeholder image and blur effect</p>
         <p>
-          This is an illustration of the lazyload effect with a placeholder
-          image and blur effect
+          To see the effects, disable cache and set throttling to 3G and refresh
+          the page.
         </p>
         <Link to="/">Go back</Link>
       </header>

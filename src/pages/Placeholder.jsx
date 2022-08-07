@@ -9,9 +9,10 @@ export default function Placeholder() {
     <div className="container">
       <header>
         <h1>Placeholder</h1>
+        <p>Lazyload effect with a placeholder image</p>
         <p>
-          This is an illustration of the lazyload effect with a placeholder
-          image
+          To see the effects, disable cache and set throttling to 3G and refresh
+          the page.
         </p>
         <Link to="/">Go back</Link>
       </header>

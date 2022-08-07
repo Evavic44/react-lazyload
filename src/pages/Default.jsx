@@ -6,8 +6,8 @@ export default function Default() {
   return (
     <div className="container">
       <header>
-        <h1>Lazyload Effect</h1>
-        <p>This is an illustration of the lazyload effect by default.</p>
+        <h1>Default</h1>
+        <p>No lazyload, just a plain image using the img tag</p>
         <Link to="/">Go back</Link>
       </header>
 
