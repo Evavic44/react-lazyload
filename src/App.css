@@ -18,7 +18,6 @@ a {
 }
 
 header {
-  margin-bottom: 100vh;
   text-align: center;
 }
 
@@ -53,11 +52,6 @@ section {
   color: inherit;
 }
 
-.error {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 100vh;
+.card {
+  margin-top: 100vh;
 }
